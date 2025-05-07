@@ -22,8 +22,8 @@ The Plagiarism Detector is a web application that checks for plagiarism by compa
 ### Steps
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/plagiarism-detector.git
-    cd plagiarism-detector
+    git clone https://github.com/yourusername/plagiarismDetector.git
+    cd plagiarismDetector
     ```
 
 2. **Create a Virtual Environment**:
