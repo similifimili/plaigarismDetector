@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plagiarism Check Results</title>
+</head>
+<body>
+    <h1>Plagiarism Check Results</h1>
+    <table border="1">
+        <tr>
+            <th>Document</th>
+            <th>Source</th>
+            <th>Similarity Score</th>
+        </tr>
+        {% for result, source in zip(results, sources) %}
+        <tr>
+            <td>Document {{ result[0] }}</td>
+            <td>{{ source }}</td>
+            <td>{{ result[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Similarity Scores Chart</h2>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Similarity Scores Chart">
+</body>
+</html>

@@ -1,8 +1,6 @@
-Sure! Here's a `README.md` file to help users understand and use your plagiarism detector project:
-
 ### `README.md`
 
-```markdown
+
 # Plagiarism Detector
 
 ## Overview
@@ -23,26 +21,26 @@ The Plagiarism Detector is a web application that checks for plagiarism by compa
 
 ### Steps
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/similifimili/plaigarismDetector.git
-   cd plaigarismDetector
-   ```
+    ```bash
+    git clone https://github.com/yourusername/plagiarism-detector.git
+    cd plagiarism-detector
+    ```
 
 2. **Create a Virtual Environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
 3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Run the Application**:
-   ```bash
-   flask run
-   ```
+    ```bash
+    flask run
+    ```
 
 ## Usage
 1. Open your web browser and navigate to `http://127.0.0.1:5000/`.
@@ -51,6 +49,7 @@ The Plagiarism Detector is a web application that checks for plagiarism by compa
 4. View the results, which will display similarity scores for various sources.
 
 ## Project Structure
+
 ```
 plaigarismDetector/
 ├── app.py
